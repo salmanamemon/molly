@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: #ffff;
+    background-color: #000;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    background-color: transparent;
+}
+
+#home {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+#nav img, .footer-logo img{
+    width: 100px;
+}
+
+#nav #right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#nav a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    font-size: 1vw;
+    letter-spacing: -1px;
+}
+
+#nav i {
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+#home #homemain {
+    width: 100%;
+    padding: 15vw 15vw;
+}
+
+#homemain h1 {
+    font-weight: 500;
+    letter-spacing: -.1vw;
+    font-size: 1.34vw;
+}
+
+.headings {
+    display: flex;
+    gap: 40px;
+}
+
+#homemain .headings h1 {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -5px;
+}
+
+#homemain .headings h1:hover {
+    color: #000;
+}
+
+#homelast {
+    padding: 5vw 15vw;
+}
+
+#homelast p {
+    width: 70%;
+    font-size: 1.6vw;
+    font-weight: 400;
+    letter-spacing: -.08vw;
+}
+
+#homelast p::selection {
+    color: #ffff;
+    background-color: #000;
+}
+
+#featured {
+    padding: 10vw 15vw;
+}
+
+.fheading>h1 {
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.fheading>h1:nth-child(2) {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#fimages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+}
+
+#fleft {
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+}
+
+.fleftelm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+
+.fleftelm h1 {
+    font-size: 2.5vw;
+    line-height: 1.11;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+.fleftelm h3 {
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.fleftelm h4 {
+    opacity: .5;
+}
+
+#fright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+
+#fright .images {
+    width: 90%;
+    height: 90%;
+}
+
+#fright .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btndiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btndiv button {
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+#dev {
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+#dev h1 {
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+}
+
+#dev p {
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+
+#slides {
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide {
+    width: 30%;
+}
+
+.slide .img {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.slide .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide .tag {
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.slide h3 {
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+.container {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+footer {
+    width: 100%;
+}
+.footer-inner {
+    background-color: #010101;
+    padding: 5vw 10vw;
+    color: #f0f0f0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img{
+    filter: invert(1);
+}
+
+.footer-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+.footer-social a {
+    padding: 0;
+    margin: 0;
+    font-size: 1vw;
+    border-radius: 50%;
+    font-family: "Poppins";
+    font-weight: 300;
+    line-height: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    height: 27px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+.footer-social a img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-label {
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+    display: inline-block;
+}
+.footer-contact p:last-child {
+    margin-top: 30px;
+    width: 78%;
+}
+.footer-subscribe {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.footer-subscribe input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.footer-subscribe button {
+    border: none;
+    padding: 13px 10px;
+    width: 100%;
+    border-radius: 5px;
+    color: #1a1a1a;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.footer-copyright {
+    margin-top: 40px;
+    text-align: left;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.footer-copyright a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.mobile-v{
+    display: none!important;
+}
+@media only screen and (max-width: 767px) {
+    .mobile-v{
+        display: block!important;
+    }
+    .desktop-v{
+        display: none!important;
+    }
+    #nav a, .footer-social a{
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    #homemain h1, #homelast p, .fleftelm h3, #dev p, .slide h3, .btndiv button, .contact-label{
+        letter-spacing: 0;
+        font-size: 16px;
+    }
+    #homemain .headings h1 {
+        font-size: 32px;
+        letter-spacing: 0;
+    }
+    .fheading>h1 {
+        font-size: 25px;
+    }
+    .btndiv {
+        margin-bottom: 50px;
+    }
+    #slides {
+        flex-direction: column;
+    }
+    .slide {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .footer{
+        margin-top: 50px;
+    }
+    .footer-top {
+        flex-direction: column;
+    }
+    .footer-nav a {margin: 8px 15px;}
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+    .footer-subscribe {
+        margin-top: 20px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact-label {
+        margin-bottom: 30px;
+    }
+    .footer-subscribe button{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .footer-contact, .footer-copyright{
+        text-align: center;
+    }
+    .footer-contact p:last-child {
+        width: 100%;
+    }
+    .wrapper{
+        padding-bottom:100px
+    }
+    main {
+        padding-bottom: 100%;
+    }
+}
+@media only screen and (max-width: 490px) {
+    #nav, #homelast, #featured, #dev{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    #nav a{
+        display: none;
+    }
+    #nav a, .footer-social a{
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .headings {
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fheading {
+        text-align: center;
+    }
+    #homelast p, #dev p, #dev h1{
+        width: 100%;
+    }
+    #homemain h1, #homelast p, .fleftelm h3, #dev p, .slide h3, .btndiv button, .contact-label{
+        letter-spacing: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+    #homemain .headings h1{
+        font-size: 32px;
+        letter-spacing: 0;
+    }
+    .fheading>h1, #dev h1{
+        font-size: 25px;
+    }
+    .fleftelm h3{
+        text-align: left;
+    }
+    .slide .tag {
+        margin: 20px auto;
+    }
+    #homemain h1 {
+        margin-bottom: 15px;
+    }
+}
