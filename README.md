@@ -1,4 +1,4 @@
-# 🌟 Award-Winning 3D Portfolio for SalmanAziz.Tech
+# 🌟 Award-Winning Molly product website by SalmanAziz.Tech
 ##  Introduction
 I'm Salman Aziz, a Full Stack Developer with over 11 years of experience, recognized for creating award-winning websites. Based in the UAE, I specialize in crafting minimalistic, clean, and highly functional web designs that stand out in the industry.
 
@@ -13,15 +13,6 @@ High-performance animations that are a signature of award-winning websites.
 
 ##  Three.js: 
 A powerful 3D graphics library for rendering and animating 3D models.
-
-##  React Three Fiber: 
-A popular library for integrating Three.js with React to create immersive 3D experiences.
-
-##  TailwindCSS: 
-A utility-first CSS framework used for rapid and responsive UI development.
-
-##  Framer Motion: 
-A leading animation library for adding dynamic motion to React components.
 
 #  Key Features:
 ##  Reusable Code: 
@@ -40,4 +31,4 @@ As a seasoned Full Stack Developer, I pride myself on creating digital experienc
 Salman Aziz - Full Stack Developer - https://salmanaziz.net/
 
 # View the Code Demo:
-Code Demo - Wizardz - https://wizardz.salmanaziz.net/
+Code Demo - Wizardz - https://molly.salmanaziz.net/
