@@ -44,8 +44,8 @@ var t2 = gsap.timeline({
         trigger: ".container",
         scroller: "body",
         pin: true,
-        // markers:true,
-        start: "top center",
+        //markers:true,
+        start: "top-=100 center",
         end: "bottom center",
         scrub: 1,
     }

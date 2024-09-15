@@ -173,6 +173,12 @@ html, body {
     object-fit: cover;
 }
 
+@media only screen and (max-width: 510px) {
+    #fright .images, #fright .images img {
+        height: 300px;
+    }
+}
+
 .btndiv {
     display: flex;
     align-items: center;
