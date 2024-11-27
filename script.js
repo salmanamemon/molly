@@ -55,3 +55,13 @@ t2.from(".footer", {
     opacity:0,
     ease: Power1,
 });
+
+function displaySignature() {
+    const createdByStyle = "background: black; color: white; padding:10px 10px 10px 5px;";
+    const nameStyle = "color: orange; margin-left: -13px;";
+    const siteStyle = "background: white; color: black; padding: 10px 15px;";
+    console.log("%cCreated by %cSALMAN AZIZ%c https://salmanaziz.net", createdByStyle, createdByStyle + nameStyle, siteStyle);
+}
+
+// Call the function
+displaySignature();
